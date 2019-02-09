@@ -29,7 +29,7 @@ class ItemRow extends Component {
         {pictures.length > 0 &&
           <figure className='media-left'>
             <p className='image is-64x64'>
-              <img src={pictures[0]} alt='' />
+              <img src={API_URL + pictures[0].slice(6)} alt='' />
             </p>
           </figure>
         }
@@ -38,7 +38,7 @@ class ItemRow extends Component {
             <p>
               <strong>{name}</strong>
               <br />
-              {description}
+              {description.slice(0, 100)}
             </p>
           </div>
         </div>

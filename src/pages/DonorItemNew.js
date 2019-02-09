@@ -25,12 +25,13 @@ class DonorItemNew extends Component {
       if (!f.type.match('image.*')) return;
 
       const reader = new FileReader();
-
       reader.onload = ((file) => {
         return (e) => {
-          console.log(e.target.result);
           this.setState(({ pictures }) => {
-            pictures.push(e.target.result);
+            pictures.push({
+              type: f.type,
+              data: e.target.result
+            });
             return { pictures };
           });
         };

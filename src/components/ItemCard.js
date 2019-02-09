@@ -62,9 +62,10 @@ class ItemsContainer extends Component {
           <h6 className='subtitle is-6'>{description}</h6>
           <figure className='media-left' >
             <p className='image'>
-              <img src={pictures[picIndex]} alt='' />
+              <img src={API_URL + pictures[picIndex].slice(6)} alt='' />
             </p>
           </figure>
+          <br />
           <div className='field is-grouped is-grouped-centered'>
             <p className='control'>
               <button className='button is-rounded' onClick={this.toggleModal}>
