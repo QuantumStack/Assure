@@ -26,18 +26,20 @@ class DonorItemChats extends Component {
   render() {
     const { isLoaded, chats } = this.state;
     return (
-      <div>
-        <Link to='/donor' className='is-pulled-left button is-rounded'>
-          <span className='icon is-small'>
-            <i className='fas fa-arrow-left'></i>
-          </span>
-        </Link>
-        <h4 className='title is-4 has-text-centered'>Messages for item</h4>
+      <div className='columns'>
+        <div className='column is-4 is-offset-4'>
+          <Link to='/donor' className='is-pulled-left button is-rounded'>
+            <span className='icon is-small'>
+              <i className='fas fa-arrow-left'></i>
+            </span>
+          </Link>
+          <h4 className='title is-4 has-text-centered'>Messages for item</h4>
 
-        {!isLoaded && <div>Loading...</div>}
-        {chats.map(chat => (
-          <ChatRow {...chat} key={chat._id} type='donor' />
-        ))}
+          {!isLoaded && <div>Loading...</div>}
+          {chats.map(chat => (
+            <ChatRow {...chat} key={chat._id} type='donor' />
+          ))}
+        </div>
       </div>
     );
   }
