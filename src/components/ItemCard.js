@@ -68,14 +68,14 @@ class ItemsContainer extends Component {
           <br />
           <div className='field is-grouped is-grouped-centered'>
             <p className='control'>
-              <button className='button is-rounded' onClick={this.toggleModal}>
+              <button className='button is-rounded is-success' onClick={this.toggleModal}>
                 <span className='icon is-small'>
                   <i className='fas fa-heart'></i>
                 </span>
               </button>
             </p>
             <p className='control'>
-              <button className='button is-rounded' onClick={this.blacklist}>
+              <button className='button is-rounded is-danger' onClick={this.blacklist}>
                 <span className='icon is-small'>
                   <i className='fas fa-times'></i>
                 </span>

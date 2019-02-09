@@ -13,7 +13,7 @@ class Message extends Component {
     );
     const box = (
       <p className='control'>
-        <span className='tag is-medium'>
+        <span className='tag is-medium' style={{ maxWidth: 200, overflowX: 'scroll' }}>
           {message}
         </span>
         <span className='help'>{moment(timestamp).fromNow()}</span>

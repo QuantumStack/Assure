@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import Message from './Message';
-import { API_URL } from './../util/constants';
+import { API_URL, WS_URL } from './../util/constants';
 import axios from 'axios';
 
 class Chat extends Component {
@@ -49,7 +49,7 @@ class Chat extends Component {
   }
 
   socketConnect() {
-    this.socket = new WebSocket('ws://localhost:40510/', "protocolOne");
+    this.socket = new WebSocket(WS_URL, 'protocolOne');
     this.socket.onopen = () => this.setState({ isConnected: true });
     this.socket.onmessage = (event) => {
       const message = JSON.parse(event.data);
