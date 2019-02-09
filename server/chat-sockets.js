@@ -19,7 +19,7 @@ wss.on('connection', (ws) => {
           timestamp,
           sender_type,
         };
-        chat.messages.push();
+        chat.messages.push(messageObj);
         chat.last_message_sent = timestamp;
         chat.save(messageObj).then(() => {
           try {
