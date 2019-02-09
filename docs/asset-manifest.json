@@ -1,13 +1,13 @@
 {
-  "main.js": "/Assure/static/js/main.be61f92a.chunk.js",
-  "main.js.map": "/Assure/static/js/main.be61f92a.chunk.js.map",
-  "static/css/1.3ab73218.chunk.css": "/Assure/static/css/1.3ab73218.chunk.css",
-  "static/js/1.d2598ffc.chunk.js": "/Assure/static/js/1.d2598ffc.chunk.js",
-  "static/js/1.d2598ffc.chunk.js.map": "/Assure/static/js/1.d2598ffc.chunk.js.map",
-  "runtime~main.js": "/Assure/static/js/runtime~main.9d230647.js",
-  "runtime~main.js.map": "/Assure/static/js/runtime~main.9d230647.js.map",
-  "static/css/1.3ab73218.chunk.css.map": "/Assure/static/css/1.3ab73218.chunk.css.map",
-  "index.html": "/Assure/index.html",
-  "precache-manifest.5f3e4b63af0a2f8369b57ee67292315a.js": "/Assure/precache-manifest.5f3e4b63af0a2f8369b57ee67292315a.js",
-  "service-worker.js": "/Assure/service-worker.js"
+  "main.js": "/static/js/main.855b40f8.chunk.js",
+  "main.js.map": "/static/js/main.855b40f8.chunk.js.map",
+  "static/css/1.a2e8bf2e.chunk.css": "/static/css/1.a2e8bf2e.chunk.css",
+  "static/js/1.ade4b124.chunk.js": "/static/js/1.ade4b124.chunk.js",
+  "static/js/1.ade4b124.chunk.js.map": "/static/js/1.ade4b124.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/1.a2e8bf2e.chunk.css.map": "/static/css/1.a2e8bf2e.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.cf141273a8ec381125764ea6fea5b4ff.js": "/precache-manifest.cf141273a8ec381125764ea6fea5b4ff.js",
+  "service-worker.js": "/service-worker.js"
 }

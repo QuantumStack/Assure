@@ -2,7 +2,6 @@
   "name": "assure-client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://quantumstack.github.io/Assure",
   "dependencies": {
     "axios": "^0.18.0",
     "bulma": "^0.7.4",
